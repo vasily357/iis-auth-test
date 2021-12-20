@@ -1,0 +1,22 @@
+{
+  "name": "iis-auth-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasily357/iis-auth-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasily357/iis-auth-test/issues"
+  },
+  "homepage": "https://github.com/vasily357/iis-auth-test#readme"
+}
