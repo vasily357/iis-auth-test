@@ -3,6 +3,8 @@ const { sso } = require('node-expose-sspi')
 const app = express()
 const port = process.env.PORT || 3000
 
+app.use(sso.auth())
+
 app.get('/myapp', (req, res) => {
   res.json({
     sso: req.sso,
