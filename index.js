@@ -5,6 +5,14 @@ const port = process.env.PORT || 3000
 
 app.use(sso.auth())
 
+app.use(
+  '/',
+  createProxyMiddleware({
+    target: 'http://localhost:5545',
+    changeOrigin: true
+  })
+)
+
 app.get('/myapp', (req, res) => {
   res.json({
     sso: req.sso,
