@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "4.17.2"
+    "express": "4.17.2",
+    "node-expose-sspi": "0.1.59"
   },
   "repository": {
     "type": "git",
