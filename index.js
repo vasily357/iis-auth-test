@@ -9,7 +9,7 @@ app.use(
   '/',
   createProxyMiddleware({
     target: 'http://localhost:5545',
-    changeOrigin: true
+    // changeOrigin: true
   })
 )
 
